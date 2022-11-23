@@ -2,6 +2,21 @@
     background-color: white;
     margin: 0  auto;
     border: 1px solid black;
-    border-radius: 20px;
+    border-radius: 250%;
     width: 60px;
+}
+#imagenesprimer{
+
+    cursor: pointer;
+    transition: all 2s ease-in-out;
+    
+    
+}
+#imagenesprimer:hover{
+    transform: scale(1.5);
+}
+#imagenmuj{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
 }
