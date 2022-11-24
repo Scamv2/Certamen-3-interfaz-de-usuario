@@ -1,89 +1,110 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
-    <link rel="stylesheet" href="/CSS/Style.css">
-    <title>Viaja ya</title>
 
-  
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="/CSS/Style.css">
+  <title>Viaja ya</title>
+
+
   <link rel="stylesheet" href="https://d19m59y37dris4.cloudfront.net/directory/2-0-1/vendor/nouislider/nouislider.css">
 
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700">
- 
+
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:300,400,400i,700">
-  
+
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/css/swiper.min.css">
- 
-  <link rel="stylesheet" href="https://d19m59y37dris4.cloudfront.net/directory/2-0-1/css/style.default.222cad84.css" id="theme-stylesheet">
+
+  <link rel="stylesheet" href="https://d19m59y37dris4.cloudfront.net/directory/2-0-1/css/style.default.222cad84.css"
+    id="theme-stylesheet">
 
   <link rel="stylesheet" href="https://d19m59y37dris4.cloudfront.net/directory/2-0-1/css/custom.0a822280.css">
 
   <link rel="shortcut icon" href="/Images/Flying-Aircraft-PNG-Clipart.ico" />
-  
-  
-  
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+
+
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
+
 <body style="padding-top: 72px;">
   <header class="header">
-   
+
     <nav class="navbar navbar-expand-lg fixed-top shadow navbar-light bg-white">
       <div class="container-fluid">
-        <div class="d-flex align-items-center"><a class="navbar-brand py-1" href="index.html"><img src="/Images/Flying-Aircraft-PNG-Clipart.ico " width=" 30px" alt="Directory logo"></a>
+        <div class="d-flex align-items-center"><a class="navbar-brand py-1" href="index.html"><img
+              src="/Images/Flying-Aircraft-PNG-Clipart.ico " width=" 30px" alt="Directory logo"></a>
           <form class="form-inline d-none d-sm-flex" action="#" id="Search">
-            <div class="input-label-absolute input-label-absolute-left input-expand ms-lg-2 ms-xl-3"> 
-              <label class="label-absolute" for="search_search"><i class="fa fa-search"></i><span class="sr-only">¿Que es lo que buscas?</span></label>
-              <input class="form-control form-control-sm border-0 shadow-0 bg-gray-200" id="search_search" placeholder="Buscar" aria-label="Search" type="search">
+            <div class="input-label-absolute input-label-absolute-left input-expand ms-lg-2 ms-xl-3">
+              <label class="label-absolute" for="search_search"><i class="fa fa-search"></i><span class="sr-only">¿Que
+                  es lo que buscas?</span></label>
+              <input class="form-control form-control-sm border-0 shadow-0 bg-gray-200" id="search_search"
+                placeholder="Buscar" aria-label="Search" type="search">
             </div>
           </form>
         </div>
-        <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
-       
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false"
+          aria-label="Toggle navigation"><i class="fa fa-bars"></i></button>
+
         <div class="collapse navbar-collapse" id="navbarCollapse">
           <form class="form-inline mt-4 mb-2 d-sm-none" action="#" id="searchcollapsed">
             <div class="input-label-absolute input-label-absolute-left w-100">
-              <label class="label-absolute" for="searchcollapsed_search"><i class="fa fa-search"></i><span class="sr-only">¿Que es lo que buscas?</span></label>
-              <input class="form-control form-control-sm border-0 shadow-0 bg-gray-200" id="searchcollapsed_search" placeholder="Buscar" aria-label="Search" type="search">
+              <label class="label-absolute" for="searchcollapsed_search"><i class="fa fa-search"></i><span
+                  class="sr-only">¿Que es lo que buscas?</span></label>
+              <input class="form-control form-control-sm border-0 shadow-0 bg-gray-200" id="searchcollapsed_search"
+                placeholder="Buscar" aria-label="Search" type="search">
             </div>
           </form>
           <ul class="navbar-nav ms-auto">
             <li class="nav-item"><a class="nav-link" href="index.html">Inicio</a>
-              
+
             </li>
-            
+
             <li class="nav-item"><a class="nav-link" href="/Formulario.html" target="_blank">Formulario</a>
               <div class="dropdown-menu megamenu py-lg-0">
                 <div class="row">
                   <div class="col-lg-9">
                     <div class="row p-3 pe-lg-0 ps-lg-5 pt-lg-5">
                       <div class="col-lg-3">
-                        
-                       
-            
+
+
+
             <li class="nav-item"><a class="nav-link" href="/Contacto.html" target="_blank">Contacto</a>
             </li>
             <li class="nav-item"><a class="nav-link" href="#">Documentos</a>
-              
+
             </li>
             <li class="nav-item"><a class="nav-link" href="/registro.html" target="_blank">Registrarse</a></li>
-            
-            <li class="nav-item mt-3 mt-lg-0 ms-lg-3 d-lg-none d-xl-inline-block"><a class="btn btn-primary" href="/login.html" target="_blank">Ingresar</a></li>
+
+            <li class="nav-item mt-3 mt-lg-0 ms-lg-3 d-lg-none d-xl-inline-block"><a class="btn btn-primary"
+                href="/login.html" target="_blank">Ingresar</a></li>
           </ul>
         </div>
       </div>
     </nav>
-    
+
   </header>
   <section class="hero-home">
     <div class="swiper-container hero-slider">
       <div class="swiper-wrapper dark-overlay">
-        <div class="swiper-slide" style="background-image:url(https://d19m59y37dris4.cloudfront.net/directory/2-0-1/img/photo/photo-1501621965065-c6e1cf6b53e2.jpg)"></div>
-        <div class="swiper-slide" style="background-image:url(https://d19m59y37dris4.cloudfront.net/directory/2-0-1/img/photo/photo-1519974719765-e6559eac2575.jpg)"></div>
-        <div class="swiper-slide" style="background-image:url(https://d19m59y37dris4.cloudfront.net/directory/2-0-1/img/photo/photo-1490578474895-699cd4e2cf59.jpg)"></div>
-        <div class="swiper-slide" style="background-image:url(https://d19m59y37dris4.cloudfront.net/directory/2-0-1/img/photo/photo-1534850336045-c6c6d287f89e.jpg)"></div>
+        <div class="swiper-slide"
+          style="background-image:url(https://d19m59y37dris4.cloudfront.net/directory/2-0-1/img/photo/photo-1501621965065-c6e1cf6b53e2.jpg)">
+        </div>
+        <div class="swiper-slide"
+          style="background-image:url(https://d19m59y37dris4.cloudfront.net/directory/2-0-1/img/photo/photo-1519974719765-e6559eac2575.jpg)">
+        </div>
+        <div class="swiper-slide"
+          style="background-image:url(https://d19m59y37dris4.cloudfront.net/directory/2-0-1/img/photo/photo-1490578474895-699cd4e2cf59.jpg)">
+        </div>
+        <div class="swiper-slide"
+          style="background-image:url(https://d19m59y37dris4.cloudfront.net/directory/2-0-1/img/photo/photo-1534850336045-c6c6d287f89e.jpg)">
+        </div>
       </div>
     </div>
     <div class="container py-6 py-md-7 text-white z-index-20">
@@ -93,26 +114,27 @@
             <p class="subtitle letter-spacing-4 mb-2 text-secondary text-shadow">Tu mejor viaje comienza hoy!</p>
             <h1 class="display-3 fw-bold text-shadow">Comienza a viajar hoy!!</h1>
           </div>
-     
-          </div>
+
         </div>
       </div>
+    </div>
     </div>
   </section>
   <section class="py-6 bg-gray-100">
     <div class="container">
       <div class="text-center pb-lg-4">
         <p class="subtitle text-secondary">Datos unicos para tus viajes!</p>
-        <h2 class="mb-5">Averigua siempre antes de viajar donde comprar un chip que te permita estar conectado a internet en ese país</h2>
+        <h2 class="mb-5">Averigua siempre antes de viajar donde comprar un chip que te permita estar conectado a
+          internet en ese país</h2>
       </div>
       <div class="row">
         <div class="col-lg-4 mb-3 mb-lg-0 text-center">
           <div class="px-0 px-lg-3">
             <div class="icon-rounded bg-primary-light mb-3">
-            <img class="imagenesico" src="/Images/Airbnb.ico" width="30px" alt="">
+              <img class="imagenesico" src="/Images/Airbnb.ico" width="30px" alt="">
             </div>
             <h3 class="h5">Siempre es mejor rentar un airbnb que un hotel!</h3>
-            <p class="text-muted">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aut quia, rerum soluta nesciunt fuga veniam provident praesentium ab optio officia voluptate rem. Corporis, consequuntur aliquid fugit ad aspernatur voluptatum tenetur!</p>
+            <p class="text-muted">Porque sabemos que no siempre hay dinero para ir a hoteles, nos ajustamos a tu presupuesto y siempre te recomendamos la mejor opcion posible para ti y tu familia</p>
           </div>
         </div>
         <div class="col-lg-4 mb-3 mb-lg-0 text-center">
@@ -121,7 +143,7 @@
               <img class="imagenesico" src="/Images/taxi.ico" width="30px" alt="">
             </div>
             <h3 class="h5">Los taxis siempre tienen que respetar los precios por km</h3>
-            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores aperiam fugit soluta dolore alias cum. Voluptas recusandae earum, esse similique, reiciendis totam obcaecati est voluptatibus pariatur quidem, nam eius repudiandae?</p>
+            <p class="text-muted">Los taxis en cualquier ciudad del mundo estan regularizados por el ministerio de transporte, por lo tanto siempre tienen que contar con un valor fijo por km recorrigo, es por esto que siempre te recomedamos que te fijes en ello!</p>
           </div>
         </div>
         <div class="col-lg-4 mb-3 mb-lg-0 text-center">
@@ -130,7 +152,7 @@
               <img class="imagenesico" src="/Images/vacaciones.ico" width="30px" alt="">
             </div>
             <h3 class="h5">Disfruta tus vacaciones </h3>
-            <p class="text-muted">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit provident quaerat fuga quos, laboriosam soluta eaque cum reprehenderit sequi corrupti officiis dignissimos at ad non quibusdam architecto consequatur adipisci iusto?</p>
+            <p class="text-muted">Siempre es buen momento para descansar, pasarlo bien y despejar tu mente de los problemas que la rutina causa</p>
           </div>
         </div>
       </div>
@@ -143,7 +165,7 @@
           <p class="subtitle text-primary">Disfruta y pasea cómo una persona local</p>
           <h2>Con nuestros guias!</h2>
         </div>
-      
+
       </div>
       <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators">
@@ -154,13 +176,15 @@
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
           <div class="carousel-inner" role="listbox">
             <div class="carousel-item active">
-              <img class="d-block w-100" id="imagenesprimer" src="/Images/edificios new york.jpg" height="500" alt="First slide">
+              <img class="d-block w-100" id="imagenesprimer" src="/Images/edificios new york.jpg" height="500"
+                alt="First slide">
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" id="imagenesprimer" src="/Images/gran_manzana.jpeg" height="500" alt="Second slide">
+              <img class="d-block w-100" id="imagenesprimer" src="/Images/gran_manzana.jpeg" height="500"
+                alt="Second slide">
             </div>
           </div>
-          <a class="carousel-control-prev"  href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
             <span class="carousel-control-prev-icon" aria-hidden="true"></span>
             <span class="sr-only">Anterior</span>
           </a>
@@ -169,267 +193,308 @@
             <span class="sr-only">Siguiente</span>
           </a>
         </div>
-  <section class="py-6 bg-gray-100"> 
-    <div class="container">
-      <div class="row mb-5">
-        <div class="col-md-8">
-          <p class="subtitle text-secondary">Las locaciones que recomendamos siempre son las mejores! </p>
-          <h2>A un minuto de la gran manzana</h2>
-        </div>
-        
-      
-      <div class="swiper-container swiper-container-mx-negative swiper-init pt-3" data-swiper="{&quot;slidesPerView&quot;:4,&quot;spaceBetween&quot;:20,&quot;loop&quot;:true,&quot;roundLengths&quot;:true,&quot;breakpoints&quot;:{&quot;1200&quot;:{&quot;slidesPerView&quot;:3},&quot;991&quot;:{&quot;slidesPerView&quot;:2},&quot;565&quot;:{&quot;slidesPerView&quot;:1}},&quot;pagination&quot;:{&quot;el&quot;:&quot;.swiper-pagination&quot;,&quot;clickable&quot;:true,&quot;dynamicBullets&quot;:true}}">
-       
-        <div class="swiper-wrapper pb-5">
-          
-          <div class="swiper-slide h-auto px-2">
-         
-            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-              <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
-                  <img class="d-block w-100" id="imagenesprimer" src="/Images/depto.jpg" height="500" alt="First slide">
-                </div>
-                <div class="carousel-item">
-                  <img class="d-block w-100" id="imagenesprimer" src="/Images/depto2.png" height="500" alt="Second slide">
-                </div>
+        <section class="py-6 bg-gray-100">
+          <div class="container">
+            <div class="row mb-5">
+              <div class="col-md-8">
+                <p class="subtitle text-secondary">Las locaciones que recomendamos siempre son las mejores! </p>
+                <h2>A un minuto de la gran manzana</h2>
               </div>
-              
-              <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-              </a>
-              <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-              </a>
-            </div>
 
-            <br>
-            <br>
-            <div class="container">
-              <h2 class="text-center">Lo que dicen nuestros clientes nos importa</h2>
-              
-              <div class="card">
-                  <div class="card-body">
-                      <div class="row">
-                          <div class="col-md-2">
-                              <img src="/Images/imgmuj.jpg" id="imagenmuj" class="img img-rounded img-fluid"/>
-                              <p class="text-secondary text-center"> </p>
-                          </div>
-                          <div class="col-md-10">
-                              <p>
-                                  <a class="float-left"><strong>Camila</strong></a>
-                                  <span class="float-right"><i class="text-warning fa fa-star"></i></span>
-                                    <span class="float-right"><i class="text-warning fa fa-star"></i></span>
-                                  <span class="float-right"><i class="text-warning fa fa-star"></i></span>
-                                  <span class="float-right"><i class="text-warning fa fa-star"></i></span>
-                                  <span class="float-right"><i class="text-warning fa fa-star"></i></span>
-            
-                             </p>
-                             <div class="clearfix"></div>
-                              <p>Lorem Ipsum is simply dummy text of the pr make  but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                              <p>
-                                  <a class="float-right btn btn-outline-primary ml-2"> <i class="fa fa-reply"></i> Compartir</a>
-                                  <a class="float-right btn text-white btn-danger"> <i class="fa fa-heart"></i> Me gusta</a>
-                             </p>
-                          </div>
+
+              <div class="swiper-container swiper-container-mx-negative swiper-init pt-3"
+                data-swiper="{&quot;slidesPerView&quot;:4,&quot;spaceBetween&quot;:20,&quot;loop&quot;:true,&quot;roundLengths&quot;:true,&quot;breakpoints&quot;:{&quot;1200&quot;:{&quot;slidesPerView&quot;:3},&quot;991&quot;:{&quot;slidesPerView&quot;:2},&quot;565&quot;:{&quot;slidesPerView&quot;:1}},&quot;pagination&quot;:{&quot;el&quot;:&quot;.swiper-pagination&quot;,&quot;clickable&quot;:true,&quot;dynamicBullets&quot;:true}}">
+
+                <div class="swiper-wrapper pb-5">
+
+                  <div class="swiper-slide h-auto px-2">
+
+                    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                      <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                          <img class="d-block w-100" id="imagenesprimer" src="/Images/depto.jpg" height="500"
+                            alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                          <img class="d-block w-100" id="imagenesprimer" src="/Images/depto2.png" height="500"
+                            alt="Second slide">
+                        </div>
                       </div>
-                        <div class="card card-inner">
-                              <div class="card-body">
-                                  <div class="row">
-                                      <div class="col-md-2">
-                                          <img src="/Images/hombre.jpg" id="imagenmuj" class="img img-rounded img-fluid"/>
-                                          <p class="text-secondary text-center"></p>
-                                      </div>
-                                      <div class="col-md-10">
-                                          <p><a href="https://maniruzzaman-akash.blogspot.com/p/contact.html"><strong>Maniruzzaman Akash</strong></a></p>
-                                          <p>Lorem Ipsum is simply dummy text of the pr make  but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-                                          <p>
-                                              <a class="float-right btn btn-outline-primary ml-2">  <i class="fa fa-reply"></i> Compartir</a>
-                                              <a class="float-right btn text-white btn-danger"> <i class="fa fa-heart"></i> Me gusta</a>
-                                         </p>
-                                      </div>
-                                  </div>
-                              </div>
+
+                      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                        data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                      </a>
+                      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                        data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                      </a>
+                    </div>
+
+                    <br>
+                    <br>
+                    <div class="container">
+                      <h2 class="text-center">Lo que dicen nuestros clientes nos importa</h2>
+
+                      <div class="card">
+                        <div class="card-body">
+                          <div class="row">
+                            <div class="col-md-2">
+                              <img src="/Images/imgmuj.jpg" id="imagenmuj" class="img img-rounded img-fluid" />
+                              <p class="text-secondary text-center"> </p>
+                            </div>
+                            <div class="col-md-10">
+                              <p>
+                                <a class="float-left"><strong>Camila</strong></a>
+                                <span class="float-right"><i class="text-warning fa fa-star"></i></span>
+                                <span class="float-right"><i class="text-warning fa fa-star"></i></span>
+                                <span class="float-right"><i class="text-warning fa fa-star"></i></span>
+                                <span class="float-right"><i class="text-warning fa fa-star"></i></span>
+                                <span class="float-right"><i class="text-warning fa fa-star"></i></span>
+
+                              </p>
+                              <div class="clearfix"></div>
+                              <p>La mejor agencia de biajes que pueda exisitir, sin dudas!</p>
+                              <p>
+                                <a class="float-right btn btn-outline-primary ml-2"> <i class="fa fa-reply"></i>
+                                  Compartir</a>
+                                <a class="float-right btn text-white btn-danger"> <i class="fa fa-heart"></i> Me
+                                  gusta</a>
+                              </p>
+                            </div>
                           </div>
-                  
-              
-         
+                          <div class="card card-inner">
+                            <div class="card-body">
+                              <div class="row">
+                                <div class="col-md-2">
+                                  <img src="/Images/hombre.jpg" id="imagenmuj" class="img img-rounded img-fluid" />
+                                  <p class="text-secondary text-center"></p>
+                                </div>
+                                <div class="col-md-10">
+                                  <p><a
+                                      href="https://maniruzzaman-akash.blogspot.com/p/contact.html"><strong>Andrés</strong></a>
+                                  </p>
+                                  <p>Eso es genial! Ya quiero empezar mi viaje en viaja ya</p>
+                                  <p>
+                                    <a class="float-right btn btn-outline-primary ml-2"> <i class="fa fa-reply"></i>
+                                      Compartir</a>
+                                    <a class="float-right btn text-white btn-danger"> <i class="fa fa-heart"></i> Me
+                                      gusta</a>
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
 
-        <div class="swiper-pagination"></div>
-      </div>
-    </div>
-  </section>
 
-  <section class="py-7 position-relative dark-overlay"><img class="bg-image" src="https://d19m59y37dris4.cloudfront.net/directory/2-0-1/img/photo/photo-1497436072909-60f360e1d4b1.jpg" alt="">
-    <div class="container">
-      <div class="overlay-content text-white py-lg-5">
-        <h3 class="display-3 fw-bold text-serif text-shadow mb-5">Estas listo para tus proximas vacaciones?</h3><a class="btn btn-light" href="category-rooms.html">Ingresa aquí</a>
-      </div>
-    </div>
-  </section>
-  <section class="py-7">
-    <div class="container">
-      <div class="text-center">
-        <p class="subtitle text-primary">Testimonios</p>
-        <h2 class="mb-5">Nuestros clientes siempre tienen la razon y la ultima opinion!</h2>
-      </div>
 
-      <div class="swiper-container testimonials-slider testimonials">
-   
-        <div class="swiper-wrapper pt-2 pb-5">
-          
-          <div class="swiper-slide p-4">
-            <div class="testimonial card rounded-3 shadow border-0">
-              <div class="testimonial-avatar"><img class="avatar avatar-lg p-1" src="https://d19m59y37dris4.cloudfront.net/directory/2-0-1/img/avatar/avatar-3.jpg" alt="..."></div>
-              <div class="text">
-                <div class="testimonial-quote"><i class="fas fa-quote-right"></i></div>
-                <p class="testimonial-text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever</p><strong>Marta</strong>
+
+                          <div class="swiper-pagination"></div>
+                        </div>
+                      </div>
+        </section>
+
+        <section class="py-7 position-relative dark-overlay"><img class="bg-image"
+            src="https://d19m59y37dris4.cloudfront.net/directory/2-0-1/img/photo/photo-1497436072909-60f360e1d4b1.jpg"
+            alt="">
+          <div class="container">
+            <div class="overlay-content text-white py-lg-5">
+              <h3 class="display-3 fw-bold text-serif text-shadow mb-5">Estas listo para tus proximas vacaciones?</h3><a
+                class="btn btn-light" href="category-rooms.html">Ingresa aquí</a>
+            </div>
+          </div>
+        </section>
+        <section class="py-7">
+          <div class="container">
+            <div class="text-center">
+              <p class="subtitle text-primary">Testimonios</p>
+              <h2 class="mb-5">Nuestros clientes siempre tienen la razon y la ultima opinion!</h2>
+            </div>
+
+            <div class="swiper-container testimonials-slider testimonials">
+
+              <div class="swiper-wrapper pt-2 pb-5">
+
+                <div class="swiper-slide p-4">
+                  <div class="testimonial card rounded-3 shadow border-0">
+                    <div class="testimonial-avatar"><img class="avatar avatar-lg p-1"
+                        src="https://d19m59y37dris4.cloudfront.net/directory/2-0-1/img/avatar/avatar-3.jpg" alt="...">
+                    </div>
+                    <div class="text">
+                      <div class="testimonial-quote"><i class="fas fa-quote-right"></i></div>
+                      <p class="testimonial-text"> <strong>Marta:</strong> Siempre tuve miedo a viajar, pero aquí me
+                        ayudaron a perder el miedo.</p>
+                    </div>
+                  </div>
+
+                  <div class="swiper-pagination">
+                  </div>
+                </div>
+        </section>
+        <section class="py-6 bg-gray-100">
+          <div class="container">
+            <div class="row mb-5">
+              <div class="col-md-8">
+                <p class="subtitle text-secondary">Cuenta tus historias en el mundo, no que todo el mundo te llegue con
+                  sus historias</p>
+                <h2>Mira estos Airbnb a excelentes precios</h2>
+              </div>
+
+            </div>
+            <div class="row">
+
+              <div class="col-lg-4 col-sm-6 mb-4 hover-animate">
+                <div class="card shadow border-0 h-100"><a href="post.html"><img class="img-fluid card-img-top"
+                      src="https://d19m59y37dris4.cloudfront.net/directory/2-0-1/img/photo/photo-1512917774080-9991f1c4c750.jpg"
+                      alt="..." /></a>
+                  <div class="card-body"><a class="text-uppercase text-muted text-sm letter-spacing-2" href="#">Viaje
+                    </a>
+                    <h5 class="my-2"><a class="text-dark" href="post.html">Estilo mediterreneo con toques modernos </a>
+                    </h5>
+                    <p class="text-gray-500 text-sm my-3"><i class="far fa-clock me-2"></i>Junio 16, 2021</p>
+                    <p class="my-2 text-muted text-sm">Casa cuenta con 3 habitaciones, dos dormitorios con baño y tina y
+                      un baño de visitas, jardin amplio, hermosas vistas y piscina las 24 horas del día</p><a
+                      class="btn btn-link ps-0" href="/index.html">Leer todo<i
+                        class="fa fa-long-arrow-alt-right ms-2"></i></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-sm-6 mb-4 hover-animate">
+                <div class="card shadow border-0 h-100"><a href="post.html"><img class="img-fluid card-img-top"
+                      src="https://d19m59y37dris4.cloudfront.net/directory/2-0-1/img/photo/photo-1522771739844-6a9f6d5f14af.jpg"
+                      alt="..." /></a>
+                  <div class="card-body"><a class="text-uppercase text-muted text-sm letter-spacing-2" href="#">Living
+                    </a>
+                    <h5 class="my-2"><a class="text-dark" href="post.html">Revisa todas las fotos en nuestra web </a>
+                    </h5>
+                    <p class="text-gray-500 text-sm my-3"><i class="far fa-clock me-2"></i>Junio 16, 2022</p>
+                    <p class="my-2 text-muted text-sm">Después de un día agotador, no hay cómo descansar en el living,
+                      es por esto que no hay mejor lugar que el que cuenta con uno que realmente te hace sentir cómo en
+                      casa</p><a class="btn btn-link ps-0" href="/index.html">Leer mas<i
+                        class="fa fa-long-arrow-alt-right ms-2"></i></a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-4 col-sm-6 mb-4 hover-animate">
+                <div class="card shadow border-0 h-100"><a href="post.html"><img class="img-fluid card-img-top"
+                      src="https://d19m59y37dris4.cloudfront.net/directory/2-0-1/img/photo/photo-1482463084673-98272196658a.jpg"
+                      alt="..." /></a>
+                  <div class="card-body"><a class="text-uppercase text-muted text-sm letter-spacing-2" href="#">Travel
+                    </a>
+                    <h5 class="my-2"><a class="text-dark" href="post.html">Mejor fotografia exterior </a></h5>
+                    <p class="text-gray-500 text-sm my-3"><i class="far fa-clock me-2"></i>Junio 16, 2012</p>
+                    <p class="my-2 text-muted text-sm">Tu fotografía puede estar aquí, que esperas para iniciar tu
+                      aventura con nostros!</p><a class="btn btn-link ps-0" href="/index.html">Leer mas<i
+                        class="fa fa-long-arrow-alt-right ms-2"></i></a>
+                  </div>
+                </div>
               </div>
             </div>
-         
-        <div class="swiper-pagination">     
-      </div>
-    </div>
-  </section>
-  <section class="py-6 bg-gray-100"> 
-    <div class="container">
-      <div class="row mb-5">
-        <div class="col-md-8">
-          <p class="subtitle text-secondary">Cuenta tus historias en el mundo, no que todo el mundo te llegue con sus historias</p>
-          <h2>Mira estos Airbnb a excelentes precios</h2>
-        </div>
-        <div class="col-md-4 d-md-flex align-items-center justify-content-end"><a class="text-muted text-sm" href="blog.html">
-            Mirar todos los articulos<i class="fas fa-angle-double-right ms-2"></i></a></div>
-      </div>
-      <div class="row">
-        
-        <div class="col-lg-4 col-sm-6 mb-4 hover-animate">
-          <div class="card shadow border-0 h-100"><a href="post.html"><img class="img-fluid card-img-top" src="https://d19m59y37dris4.cloudfront.net/directory/2-0-1/img/photo/photo-1512917774080-9991f1c4c750.jpg" alt="..."/></a>
-            <div class="card-body"><a class="text-uppercase text-muted text-sm letter-spacing-2" href="#">Viaje </a>
-              <h5 class="my-2"><a class="text-dark" href="post.html">Estilo mediterreneo con toques modernos          </a></h5>
-              <p class="text-gray-500 text-sm my-3"><i class="far fa-clock me-2"></i>Junio 16, 2021</p>
-              <p class="my-2 text-muted text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Adipisci et fugiat, inventore debitis sint maxime odit tenetur dolores iusto non, porro voluptas ipsam incidunt? Officia in veritatis corporis quae voluptatem?</p><a class="btn btn-link ps-0" href="post.html">Leer todo<i class="fa fa-long-arrow-alt-right ms-2"></i></a>
-            </div>
           </div>
-        </div>
-    
-        <div class="col-lg-4 col-sm-6 mb-4 hover-animate">
-          <div class="card shadow border-0 h-100"><a href="post.html"><img class="img-fluid card-img-top" src="https://d19m59y37dris4.cloudfront.net/directory/2-0-1/img/photo/photo-1522771739844-6a9f6d5f14af.jpg" alt="..."/></a>
-            <div class="card-body"><a class="text-uppercase text-muted text-sm letter-spacing-2" href="#">Living </a>
-              <h5 class="my-2"><a class="text-dark" href="post.html">Revisa todas las fotos en nuestra web         </a></h5>
-              <p class="text-gray-500 text-sm my-3"><i class="far fa-clock me-2"></i>Junio 16, 2022</p>
-              <p class="my-2 text-muted text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Perspiciatis aliquam, quidem molestiae blanditiis vel tempore recusandae dolore, sint, qui cumque esse deleniti ad enim fugiat id soluta explicabo provident totam?</p><a class="btn btn-link ps-0" href="post.html">Leer mas<i class="fa fa-long-arrow-alt-right ms-2"></i></a>
-            </div>
-          </div>
-        </div>
-     
-        <div class="col-lg-4 col-sm-6 mb-4 hover-animate">
-          <div class="card shadow border-0 h-100"><a href="post.html"><img class="img-fluid card-img-top" src="https://d19m59y37dris4.cloudfront.net/directory/2-0-1/img/photo/photo-1482463084673-98272196658a.jpg" alt="..."/></a>
-            <div class="card-body"><a class="text-uppercase text-muted text-sm letter-spacing-2" href="#">Travel </a>
-              <h5 class="my-2"><a class="text-dark" href="post.html">Mejor fotografia exterior        </a></h5>
-              <p class="text-gray-500 text-sm my-3"><i class="far fa-clock me-2"></i>Junio 16, 2012</p>
-              <p class="my-2 text-muted text-sm">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, nostrum! Odio eligendi, in maxime aliquid voluptas adipisci ullam accusantium consequatur nobis atque corporis dicta assumenda, vitae dolorum! Cupiditate, animi a?</p><a class="btn btn-link ps-0" href="post.html">Leer mas<i class="fa fa-long-arrow-alt-right ms-2"></i></a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
- 
-  
-  
-  <footer class="position-relative z-index-10 d-print-none">
-
-    <div class="py-6 bg-gray-200 text-muted"> 
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-4 mb-5 mb-lg-0">
-            <div class="fw-bold text-uppercase text-dark mb-3">Nuestra página</div>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
-            <ul class="list-inline">
-              <li class="list-inline-item"><a class="text-muted text-primary-hover" href="#" target="_blank" title="twitter"><i class="fab fa-twitter"></i></a></li>
-              <li class="list-inline-item"><a class="text-muted text-primary-hover" href="#" target="_blank" title="facebook"><i class="fab fa-facebook"></i></a></li>
-              <li class="list-inline-item"><a class="text-muted text-primary-hover" href="#" target="_blank" title="instagram"><i class="fab fa-instagram"></i></a></li>
-              <li class="list-inline-item"><a class="text-muted text-primary-hover" href="#" target="_blank" title="pinterest"><i class="fab fa-pinterest"></i></a></li>
-              <li class="list-inline-item"><a class="text-muted text-primary-hover" href="#" target="_blank" title="vimeo"><i class="fab fa-vimeo"></i></a></li>
-            </ul>
-          </div>
-          <div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
-            <h6 class="text-uppercase text-dark mb-3">Arrienda</h6>
-            <ul class="list-unstyled">
-              <li><a class="text-muted" href="index.html">Habitaciones</a></li>
-              <li><a class="text-muted" href="category-rooms.html">Mejor posicion en el mapa</a></li>
-              <li><a class="text-muted" href="detail-rooms.html">Detalles de las habitaciones</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
-            <h6 class="text-uppercase text-dark mb-3">Páginas</h6>
-            <ul class="list-unstyled">
-              <li><a class="text-muted" href="compare.html">Inicio</a></li>
-              <li><a class="text-muted" href="team.html">Quienes somos</a></li>
-              <li><a class="text-muted" href="contact.html">Contactanos</a></li>
-            </ul>
-          </div>
-          <div class="col-lg-4">
-            <h6 class="text-uppercase text-dark mb-3">Para resivir ofertas y descuentos</h6>
-            <p class="mb-3"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. At itaque temporibus.</p>
-            <form action="#" id="newsletter-form">
-              <div class="input-group mb-3">
-                <input class="form-control bg-transparent border-dark border-end-0" type="email" placeholder="Ingresar tú email" aria-label="Your Email Address">
-                <button class="btn btn-outline-dark border-start-0" type="submit"> <i class="fa fa-paper-plane text-lg"></i></button>
-              </div>
-            </form>
-          </div>
-        
-    <div class="py-4 fw-light bg-gray-800 text-gray-300">
-      <div class="container">
-        <div class="row align-items-center">
-          <div class="col-md-6 text-center text-md-start">
-            <p class="text-sm mb-md-0">&copy; 2021, Viajes ya!.  Todos los derechos reservados.</p>
-          </div>
-  </footer>
-  
-  <button class="btn btn-primary btn-sm d-none d-lg-block" type="button" data-bs-toggle="collapse" data-bs-target="#style-switch" id="style-switch-button">
-    <img src="/Images/846351.ico" width="40px" alt="">
-      <use xlink:href="#configuration-1"> </use>
-    </svg>
-  </button>
-  <div class="collapse" id="style-switch">
-    <div class="p-4">
-      <h6 class="text-uppercase mb-4">Seleccione su color</h6>
-      <form class="mb-3">
-        <select class="form-select style-switch-select" name="colour" id="colour">
-          <option value="">Elije tu color de preferencia</option>
-          <option value="css/style.default.222cad84.css">Azul</option>
-          <option value="css/style.pink.8e944c0e.css">Rosado</option>
-        </select>
-      </form>
-      <p class="text-muted text-xs mb-0">Dale estilo a la página mientras eliges donde ir</p>
-    </div>
-  </div>
+        </section>
 
 
-  
-  <script src="https://d19m59y37dris4.cloudfront.net/directory/2-0-1/vendor/jquery/jquery.min.js"></script>
-  
-  <script src="https://d19m59y37dris4.cloudfront.net/directory/2-0-1/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-  <script src="https://d19m59y37dris4.cloudfront.net/directory/2-0-1/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
-  
-  <script src="https://d19m59y37dris4.cloudfront.net/directory/2-0-1/vendor/smooth-scroll/smooth-scroll.polyfills.min.js"></script>
- 
-  <script src="https://d19m59y37dris4.cloudfront.net/directory/2-0-1/vendor/bootstrap-select/js/bootstrap-select.min.js"></script>
-  
-  <script src="https://d19m59y37dris4.cloudfront.net/directory/2-0-1/vendor/object-fit-images/ofi.min.js"></script>
+        <footer class="position-relative z-index-10 d-print-none">
 
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
-  <script src="https://d19m59y37dris4.cloudfront.net/directory/2-0-1/vendor/jquery.cookie/jquery.cookie.js"> </script>
-  <script src="js/demo.36f8799a.js"></script>
-  <script>var basePath = ''</script>
+          <div class="py-6 bg-gray-200 text-muted">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-4 mb-5 mb-lg-0">
+                  <div class="fw-bold text-uppercase text-dark mb-3">Nuestra página</div>
+                  <p>Es lider en viajes y eventos</p>
+                  <ul class="list-inline">
+                    <li class="list-inline-item"><a class="text-muted text-primary-hover"
+                        href="https://twitter.com/?lang=es" target="_blank" title="twitter"><i
+                          class="fab fa-twitter"></i></a></li>
+                    <li class="list-inline-item"><a class="text-muted text-primary-hover"
+                        href="https://www.facebook.com" target="_blank" title="facebook"><i
+                          class="fab fa-facebook"></i></a></li>
+                    <li class="list-inline-item"><a class="text-muted text-primary-hover"
+                        href="https://www.instagram.com/" target="_blank" title="instagram"><i
+                          class="fab fa-instagram"></i></a></li>
+                    <li class="list-inline-item"><a class="text-muted text-primary-hover"
+                        href="https://www.pinterest.cl/" target="_blank" title="pinterest"><i
+                          class="fab fa-pinterest"></i></a></li>
+                    <li class="list-inline-item"><a class="text-muted text-primary-hover" href="https://vimeo.com/es/"
+                        target="_blank" title="vimeo"><i class="fab fa-vimeo"></i></a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
+                  <h6 class="text-uppercase text-dark mb-3">Arrienda</h6>
+                  <ul class="list-unstyled">
+                    <li><a class="text-muted">Habitaciones</a></li>
+                    <li><a class="text-muted">Mejor posicion en el mapa</a></li>
+                    <li><a class="text-muted">Detalles de las habitaciones</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-5 mb-lg-0">
+                  <h6 class="text-uppercase text-dark mb-3">Páginas</h6>
+                  <ul class="list-unstyled">
+                    <li><a class="text-muted" href="/index.html">Inicio</a></li>
+                    <li><a class="text-muted" href="/Contacto.html">Contacto</a></li>
+                    <li><a class="text-muted" href="/registro.html">Registro</a></li>
+                  </ul>
+                </div>
+                <div class="col-lg-4">
+                  <h6 class="text-uppercase text-dark mb-3">Para resivir ofertas y descuentos</h6>
+                  <p class="mb-3">Una vez suscripto recibira correos con promociones</p>
+                  <form action="#" id="newsletter-form">
+                    <div class="input-group mb-3">
+                      <input class="form-control bg-transparent border-dark border-end-0" type="email"
+                        placeholder="Ingresar tú email" aria-label="Your Email Address">
+                      <button class="btn btn-outline-dark border-start-0" type="submit"> <i
+                          class="fa fa-paper-plane text-lg"></i></button>
+                    </div>
+                  </form>
+                </div>
 
-<script src="/js/main.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+                <div class="py-4 fw-light bg-gray-800 text-gray-300">
+                  <div class="container">
+                    <div class="row align-items-center">
+                      <div class="col-md-6 text-center text-md-start">
+                        <p class="text-sm mb-md-0">&copy; 2021, Viajes ya!. Todos los derechos reservados.</p>
+                      </div>
+        </footer>
+
+
+
+
+
+        <script src="https://d19m59y37dris4.cloudfront.net/directory/2-0-1/vendor/jquery/jquery.min.js"></script>
+
+        <script
+          src="https://d19m59y37dris4.cloudfront.net/directory/2-0-1/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+        <script
+          src="https://d19m59y37dris4.cloudfront.net/directory/2-0-1/vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+        <script
+          src="https://d19m59y37dris4.cloudfront.net/directory/2-0-1/vendor/smooth-scroll/smooth-scroll.polyfills.min.js"></script>
+
+        <script
+          src="https://d19m59y37dris4.cloudfront.net/directory/2-0-1/vendor/bootstrap-select/js/bootstrap-select.min.js"></script>
+
+        <script
+          src="https://d19m59y37dris4.cloudfront.net/directory/2-0-1/vendor/object-fit-images/ofi.min.js"></script>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.1/js/swiper.min.js"></script>
+        <script
+          src="https://d19m59y37dris4.cloudfront.net/directory/2-0-1/vendor/jquery.cookie/jquery.cookie.js"> </script>
+
+        <script>var basePath = ''</script>
+
+
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+          integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+          crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+          crossorigin="anonymous"></script>
 </body>
+
 </html>
